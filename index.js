@@ -34,7 +34,7 @@ function sendMail(to, invoice, trainer){
         service: 'gmail',
         auth: {
             user: 'prachiworks01@gmail.com',
-            pass: 'hnrnvdwzcfmoepef',
+            pass: 'myazzfflesyqgphb',
         },
     });
 
@@ -52,7 +52,6 @@ function sendMail(to, invoice, trainer){
         }
       });
     };
-
 app.post('/api/payment', (req, res) => {
     completePayment(req.body.name, req.body.email, req.body.phone, req.body.age, req.body.batch, res);
 });

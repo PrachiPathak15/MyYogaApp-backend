@@ -14,7 +14,7 @@ async function main(){
     }
 }
 async function joinCollections(client){
-    const result = await client.db("prachi").collection("users").aggregate([
+    const result = await client.db("Yoga").collection("users").aggregate([
         {
             $lookup:
             {
